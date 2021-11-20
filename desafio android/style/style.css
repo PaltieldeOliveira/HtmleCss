@@ -47,11 +47,10 @@ header{
 header >p{
     color:white;
     font-size:1.2em;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 20px 10px;
     max-width:600px;
     margin:auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
-    padding-bottom:20px;
 }
 header > h1{
     color:white;
