@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: whitesmoke;
+            padding:10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding:10px;
+            margin:10px;
+            border-radius:10px;
+            box-shadow:4px 4px 8px 0px rgba(0, 0, 0, 0.349);
+        }
+        footer{
+            background-color: black;
+            color:white;
+            text-align:center;
+            padding:4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin:0px;
+        }
+        article{
+            background-color:lightgrey;
+            padding:5px;
+        }
+        article > aside{
+            background-color: rgb(151, 151, 151);
+            margin-bottom:10px;
+        }
+        nav{
+            background-color: rgb(97, 96, 96);
+            padding: 3px;
+            box-shadow:2px 2px 2px rgba(0, 0, 0, 0.336);
+        }
+        nav > a{
+            text-decoration: none;
+            color:white;
+            font-weight:bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            color:lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link 01</a>
+            <a href="#">Link 02</a>
+            <a href="#">Link 03</a>
+            <a href="#">Link 04</a>
+            <a href="#">Link 05</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ab non reiciendis tenetur voluptate error veritatis, numquam doloribus ullam a ad temporibus doloremque nulla, illum animi optio ratione odit provident.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae perspiciatis dolores dicta sint est ab, modi laboriosam officia nihil a repellendus! Laudantium corporis, officia quam corrupti accusamus asperiores maxime praesentium.</p>
+                <aside>Escrito por R Augusto</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site desenvolvido por Luis Ribeiro</p>
+    </footer>
+</body>
+</html> 
