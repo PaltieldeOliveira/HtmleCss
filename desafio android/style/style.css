@@ -51,7 +51,7 @@ header >p{
     max-width:600px;
     margin:auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
-    margin-bottom:20px;
+    padding-bottom:20px;
 }
 header > h1{
     color:white;
@@ -70,7 +70,7 @@ nav > a{
     padding: 10px;
     text-decoration: none;
     font-weight:bold;
-    transition-duration: .7s;
+    transition-duration: 1s;
 }
 nav > a:hover{
     color:var(--cor5);
